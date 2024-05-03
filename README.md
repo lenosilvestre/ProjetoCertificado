@@ -28,7 +28,7 @@ O projeto está estruturado da seguinte forma:
 
 1. Clone este repositório para o seu ambiente local.
 2. Importe o script SQL fornecido (`certificadodb.sql`) para criar o banco de dados e suas tabelas.
-3. Configure as credenciais do banco de dados no arquivo `config.php`.
+3. Configure as credenciais do banco de dados no arquivo `banco.php`.
 4. Inicie o servidor web e certifique-se de que o PHP esteja configurado corretamente.
 5. Acesse o sistema através do navegador e comece a gerenciar certificados de eventos.
 
