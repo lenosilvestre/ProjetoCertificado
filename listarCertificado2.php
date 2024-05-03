@@ -61,7 +61,7 @@ if(empty($nome)){
     $descricao;
     $observacao;
     $cargaH;
-    
+    $msg="";
    
    
     

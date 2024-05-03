@@ -5,7 +5,7 @@ class Database {
 	private $pdo;
 	function __construct(){
 		try{
-			$this -> pdo =  new PDO("mysql:host = localhost:3306;dbname=certificadodb","root","1234");
+			$this -> pdo =  new PDO("mysql:host = localhost;dbname=certificadodb","root","");
 			$this -> pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);			
 		}catch(PDOException $e){
 			echo $e->getMessage(), " opendatabase";
